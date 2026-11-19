@@ -1,0 +1,22 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+crash.log
+
+# Python
+__pycache__/
+*.pyc
+venv/
+
+# Credentials — never commit
+.aws/
+*.pem
+.env
+
+# Scan output (may contain account IDs)
+findings*.json
+
+aws/
+awscliv2.zip
