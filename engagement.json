@@ -1,0 +1,8 @@
+{
+  "report_title": "Cloud ICT Risk Assessment",
+  "subtitle": "AWS configuration review against DORA Chapter II",
+  "entity": "Meridian Trust S.A.",
+  "entity_description": "Fictional Luxembourg-domiciled fund administrator: approximately EUR 4bn in assets under administration, 180 staff, critical client reporting hosted on AWS.",
+  "assessor": "Aishwarya Nair",
+  "version": "1.0"
+}

@@ -1,0 +1,10 @@
+[
+  {
+    "finding_ids": ["AWS-IAM-001"],
+    "match": "user/aishwarya-admin",
+    "justification": "Break-glass administrative account used to operate the assessment lab. Full privileges are required to provision and tear down the test environment.",
+    "compensating_controls": "Root user protected by MFA; account contains no production data; environment is destroyed after each session.",
+    "accepted_by": "Assessment lead",
+    "review_date": "2027-02-28"
+  }
+]
