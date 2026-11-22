@@ -2,7 +2,7 @@
 
 Automated assessment of AWS environments against **DORA** (Regulation (EU) 2022/2554), producing a client-style report that maps every technical misconfiguration to the DORA article it engages, the relevant **ISO/IEC 27001:2022** Annex A controls and the **CIS AWS Foundations Benchmark**.
 
-📄 **[Sample report](report/assessment-report.pdf)**, assessing a fictional Luxembourg fund administrator.
+📄 My **[Sample report](report/assessment-report.pdf)**, assessing a fictional Luxembourg fund administrator.
 
 ---
 
