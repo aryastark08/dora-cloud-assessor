@@ -9,8 +9,7 @@ provider "aws" {
   region = "eu-north-1"
 }
 
-# Bucket names are globally unique across all of AWS,
-# so we append a random suffix.
+# Bucket names are globally unique across all of AWS, so we append a random suffix.
 resource "random_id" "suffix" {
   byte_length = 4
 }
@@ -29,8 +28,7 @@ resource "aws_s3_bucket" "public_bucket" {
   }
 }
 
-# AWS blocks public access by default. We disable those guardrails,
-# which is exactly the misconfiguration the scanner should detect.
+# AWS blocks public access by default. We disable those guardrails, which is exactly the misconfiguration the scanner should detect.
 resource "aws_s3_bucket_public_access_block" "public_bucket" {
   bucket = aws_s3_bucket.public_bucket.id
 
