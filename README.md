@@ -123,7 +123,7 @@ The scanner needs read-only permissions, for example the AWS-managed `SecurityAu
 
 ## Author
 
-**Aishwarya Nair**, Erasmus Mundus Master's in Cybersecurity, University of Luxembourg.
+**Aishwarya Jeevan Nair**, Erasmus Mundus Master's in Cybersecurity, University of Luxembourg.
 
 Corrections are welcome, particularly on the regulatory mappings.
 
